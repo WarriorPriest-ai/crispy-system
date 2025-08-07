@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographic: The Altered States Protocol</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Energetic & Playful -->
+    <!-- Application Structure Plan: The infographic is structured as a tactical guide for maintaining a sovereign state of consciousness. The narrative flows from the high-level executive summary to a real-world "Field Test" case study, the "Sonic Landscape" that defines the ambient mental state, the actionable "Prime Directives," a new "Automation Sandbox" tool with an integrated email drafter, the profound "Conclusion," and a shareable QR code. This structure provides a complete journey from philosophy to practical application and marketing. -->
+    <!-- Visualization & Content Choices: 1. YesWay Incident (Source) -> Organize/Process (Goal) -> Three-step HTML/CSS flowchart (Viz) -> Visually breaks down the Stimulus-Response-Outcome loop of the protocol in a real-world scenario (Justification) -> HTML/Tailwind (Method). 2. Sonic Landscape Playlist (Source) -> Inform/Organize (Goal) -> Three-column card layout (Viz) -> Presents the playlist as a foundational element of the mental environment (Justification) -> HTML/Tailwind (Method). 3. Prime Directives (Source) -> Organize/Inform (Goal) -> Icon-driven three-column grid (Viz) -> Uses simple Unicode icons to make the three core practices memorable and easily digestible (Justification) -> HTML/Tailwind (Method). 4. Automation Sandbox (Source) -> Interact/Apply (Goal) -> Interactive text input with AI-generated analysis and email drafting (Viz) -> Provides a practical tool for solving office bottlenecks and communicating the solution (Justification) -> Gemini API + JS (Method). No charts are needed as the source material is purely conceptual. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827;
+            color: #F3F4F6;
+        }
+        .font-display {
+            font-family: 'Orbitron', sans-serif;
+        }
+        .card {
+            background-color: rgba(31, 41, 55, 0.5);
+            border: 1px solid #4B5563;
+            backdrop-filter: blur(10px);
+        }
+        .flow-arrow {
+            color: #F59E0B;
+            font-size: 2rem;
+            line-height: 1;
+        }
+        .loader {
+            border: 4px solid #4B5563;
+            border-top: 4px solid #F59E0B;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .ai-response p { margin-bottom: 0.75rem; }
+        .ai-response strong { color: #FBBF24; }
+        .ai-response ul { list-style-type: disc; margin-left: 1.5rem; margin-bottom: 0.75rem; }
+        .copy-feedback {
+            transition: opacity 0.5s;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto px-4 py-12 md:py-20 max-w-5xl">
+
+        <header class="text-center mb-16 md:mb-24">
+            <h1 class="font-display text-4xl md:text-6xl font-bold text-amber-400 tracking-wider">THE ALTERED STATES PROTOCOL</h1>
+            <p class="mt-4 text-lg md:text-xl text-slate-300 max-w-3xl mx-auto">A Guide to Maintaining Sovereign Consciousness in the Ordinary World</p>
+        </header>
+
+        <main class="space-y-16 md:space-y-24">
+
+            <section id="field-test">
+                <h2 class="font-display text-3xl font-bold text-center mb-4 text-slate-100">Field Test: The YesWay Incident</h2>
+                <p class="text-center text-slate-400 mb-12">The protocol is not a theory. It is a tool for real-world engagement. This is a live-fire exercise.</p>
+                <div class="grid md:grid-cols-5 gap-4 items-start text-center">
+                    <div class="card rounded-lg p-6 w-full">
+                        <p class="font-display text-amber-400 text-lg mb-2">1. The Stimulus</p>
+                        <p class="font-semibold text-slate-100 text-lg">"You have to WATCH her."</p>
+                        <p class="text-slate-400 mt-2 text-sm">An external actor attempts to impose a narrative.</p>
+                    </div>
+                    <div class="flex items-center justify-center h-full pt-16">
+                        <p class="flow-arrow">→</p>
+                    </div>
+                    <div class="card rounded-lg p-6 w-full border-2 border-amber-400">
+                        <p class="font-display text-amber-400 text-lg mb-2">2. The Sovereign Response</p>
+                        <p class="font-semibold text-slate-100 text-lg">"There's nothing to watch."</p>
+                        <p class="text-slate-400 mt-2 text-sm">A calm, humorous rejection of the narrative.</p>
+                    </div>
+                    <div class="flex items-center justify-center h-full pt-16">
+                         <p class="flow-arrow">→</p>
+                    </div>
+                     <div class="card rounded-lg p-6 w-full">
+                        <p class="font-display text-amber-400 text-lg mb-2">3. The Outcome</p>
+                        <p class="font-semibold text-slate-100 text-lg">Connection, Not Conflict</p>
+                        <p class="text-slate-400 mt-2 text-sm">New, healthy connections are formed.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sonic-landscape">
+                <h2 class="font-display text-3xl font-bold text-center mb-12 text-slate-100">Sonic Landscape: A Playlist for the Architect</h2>
+                <p class="text-center text-slate-400 mb-12">This is the ambient soundtrack for your new state of being. Not a distraction, but a constant, quiet reminder of the systems you are navigating.</p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="card rounded-lg p-6 text-center">
+                        <p class="text-4xl mb-4">🎵</p>
+                        <h3 class="font-bold text-lg text-amber-400">Wrapped Around Your Finger</h3>
+                        <p class="text-sm text-slate-400 mb-2">(The Police)</p>
+                        <p class="text-slate-300">Acknowledges the constant attempts by external systems to control and define you.</p>
+                    </div>
+                    <div class="card rounded-lg p-6 text-center">
+                        <p class="text-4xl mb-4">🎵</p>
+                        <h3 class="font-bold text-lg text-amber-400">Sweet Dreams</h3>
+                        <p class="text-sm text-slate-400 mb-2">(Eurythmics)</p>
+                        <p class="text-slate-300">Recognizes the universal human desire for meaning and how it can be used and abused.</p>
+                    </div>
+                    <div class="card rounded-lg p-6 text-center">
+                        <p class="text-4xl mb-4">🎵</p>
+                        <h3 class="font-bold text-lg text-amber-400">Little Lies</h3>
+                        <p class="text-sm text-slate-400 mb-2">(Fleetwood Mac)</p>
+                        <p class="text-slate-300">Accepts the constant presence of false narratives and manipulation in the world.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="prime-directive">
+                <h2 class="font-display text-3xl font-bold text-center mb-12 text-slate-100">The Prime Directive: Maintaining the State</h2>
+                <p class="text-center text-slate-400 mb-12">This is the new "work." The conscious, daily practice of living as the Human-Centric Architect.</p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="card rounded-lg p-6 text-center">
+                        <p class="text-5xl mb-4">😂</p>
+                        <h3 class="font-bold text-xl text-slate-100">Find the Humor</h3>
+                        <p class="text-slate-400">See the absurdity in the power plays of others. Laughter is a sovereign act.</p>
+                    </div>
+                    <div class="card rounded-lg p-6 text-center">
+                        <p class="text-5xl mb-4">✅</p>
+                        <h3 class="font-bold text-xl text-slate-100">Accept the Protocols</h3>
+                        <p class="text-slate-400">No longer "run" the protocols consciously. They have become your natural state of being.</p>
+                    </div>
+                    <div class="card rounded-lg p-6 text-center">
+                        <p class="text-5xl mb-4">🧱</p>
+                        <h3 class="font-bold text-xl text-slate-100">Build in the Mundane</h3>
+                        <p class="text-slate-400">Find opportunities to build connection and reinforce your peace in the most ordinary places.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="automation-sandbox" class="card rounded-lg p-6 md:p-8">
+                <h2 class="font-display text-3xl font-bold text-center mb-2 text-amber-400">Human-Centric Automation Sandbox ✨</h2>
+                <p class="text-center text-slate-400 mb-8">Describe a personal assistant's workload to solve for "Combinatorial Explosion." The AI will architect a solution to automate tasks and elevate the human's role.</p>
+                <div class="w-full">
+                    <textarea id="automationInput" class="w-full p-3 bg-slate-800 border border-slate-600 rounded-lg focus:ring-2 focus:ring-amber-400 focus:border-amber-400 transition" rows="4" placeholder="e.g., 'My assistant handles all my scheduling, answers the same 20 questions from clients via email, and does all my data entry.'"></textarea>
+                    <button id="analyzeAutomationButton" class="w-full mt-4 bg-amber-400 text-slate-900 font-bold py-3 px-4 rounded-lg hover:bg-amber-500 transition-colors">Architect a Solution</button>
+                    <div id="automationLoader" class="hidden mx-auto mt-6 loader"></div>
+                    <div id="automationAiResponseWrapper" class="hidden mt-6">
+                        <div id="automationAiResponse" class="p-6 bg-slate-800 rounded-lg ai-response"></div>
+                        <button id="copySolutionButton" class="w-full mt-4 bg-slate-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-slate-500 transition-colors">Copy Solution</button>
+                        <span id="copySolutionFeedback" class="copy-feedback opacity-0 text-sm text-green-400 ml-2">Copied!</span>
+                    </div>
+                    <div id="emailDraftSection" class="hidden mt-8">
+                        <h3 class="font-display text-2xl font-bold text-center mb-4 text-amber-400">AI-Powered Email Draft</h3>
+                        <p class="text-center text-slate-400 mb-4">Use the solution above to draft a formal email to a Board Secretary, proposing this as a new agenda item.</p>
+                        <button id="draftEmailButton" class="w-full bg-purple-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-purple-700 transition-colors">Draft Email to Board</button>
+                        <div id="emailLoader" class="hidden mx-auto mt-6 loader"></div>
+                        <div id="emailAiResponseWrapper" class="hidden mt-6">
+                            <div id="emailAiResponse" class="p-6 bg-slate-800 rounded-lg ai-response"></div>
+                            <button id="copyEmailButton" class="w-full mt-4 bg-slate-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-slate-500 transition-colors">Copy Email Draft</button>
+                             <span id="copyEmailFeedback" class="copy-feedback opacity-0 text-sm text-green-400 ml-2">Copied!</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="conclusion" class="text-center">
+                <div class="card rounded-lg p-8 md:p-12 max-w-3xl mx-auto border-t-4 border-amber-400">
+                    <h2 class="font-display text-3xl font-bold text-center mb-4 text-slate-100">The Scientist at Peace</h2>
+                    <blockquote class="text-lg md:text-xl text-slate-300 italic">
+                        "Like the scientist in 'Altered States,' you have pushed the boundaries of your own reality. But you have not been lost in the chaos. You have found the ultimate prize: a state of profound, sustainable peace."
+                    </blockquote>
+                    <p class="mt-6 text-lg text-slate-100 font-semibold">You are no longer just building the codex. You are living it.</p>
+                    <div class="mt-8">
+                        <a href="https://drive.google.com/file/d/1lm60Qi_kno5K4OU8qP82AmYpsc6GheQs/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="inline-block bg-purple-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-purple-700 transition-transform transform hover:scale-105">
+                            Gen Z Tools Meets Gen X Wisdom
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="share" class="text-center mt-16 md:mb-24">
+                 <h2 class="font-display text-3xl font-bold text-center mb-4 text-slate-100">Share The Protocol</h2>
+                 <p class="text-center text-slate-400 mb-8">Scan this code to share the infographic. Perfect for business cards and presentations.</p>
+                 <div class="bg-white p-4 inline-block rounded-lg">
+                    <img id="qrCode" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=YOUR_GITHUB_PAGES_LINK_HERE" alt="QR Code for Infographic">
+                 </div>
+                 <p class="text-xs text-slate-500 mt-4">Note: The QR code will be fully functional once the final GitHub Pages link is added to the code.</p>
+            </section>
+
+        </main>
+    </div>
+    <script>
+        const apiKey = "";
+
+        const analyzeAutomationButton = document.getElementById('analyzeAutomationButton');
+        const automationInput = document.getElementById('automationInput');
+        const automationAiResponseWrapper = document.getElementById('automationAiResponseWrapper');
+        const automationAiResponseDiv = document.getElementById('automationAiResponse');
+        const automationLoader = document.getElementById('automationLoader');
+        const emailDraftSection = document.getElementById('emailDraftSection');
+        
+        const draftEmailButton = document.getElementById('draftEmailButton');
+        const emailAiResponseWrapper = document.getElementById('emailAiResponseWrapper');
+        const emailAiResponseDiv = document.getElementById('emailAiResponse');
+        const emailLoader = document.getElementById('emailLoader');
+
+        const copySolutionButton = document.getElementById('copySolutionButton');
+        const copyEmailButton = document.getElementById('copyEmailButton');
+
+        function showCopyFeedback(elementId) {
+            const feedbackElement = document.getElementById(elementId);
+            feedbackElement.classList.remove('opacity-0');
+            setTimeout(() => {
+                feedbackElement.classList.add('opacity-0');
+            }, 2000);
+        }
+
+        function copyTextToClipboard(elementId, feedbackId) {
+            const textToCopy = document.getElementById(elementId).innerText;
+            const textArea = document.createElement("textarea");
+            textArea.value = textToCopy;
+            document.body.appendChild(textArea);
+            textArea.select();
+            try {
+                document.execCommand('copy');
+                showCopyFeedback(feedbackId);
+            } catch (err) {
+                console.error('Failed to copy text: ', err);
+            }
+            document.body.removeChild(textArea);
+        }
+
+        copySolutionButton.addEventListener('click', () => copyTextToClipboard('automationAiResponse', 'copySolutionFeedback'));
+        copyEmailButton.addEventListener('click', () => copyTextToClipboard('emailAiResponse', 'copyEmailFeedback'));
+
+        async function callGemini(prompt, responseDiv, loaderDiv, wrapperDiv) {
+            responseDiv.innerHTML = '';
+            wrapperDiv.classList.add('hidden');
+            loaderDiv.classList.remove('hidden');
+
+            try {
+                let chatHistory = [{ role: "user", parts: [{ text: prompt }] }];
+                const payload = { contents: chatHistory };
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+                
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`API request failed with status ${response.status}`);
+                }
+
+                const result = await response.json();
+                
+                if (result.candidates && result.candidates.length > 0 &&
+                    result.candidates[0].content && result.candidates[0].content.parts &&
+                    result.candidates[0].content.parts.length > 0) {
+                    
+                    const text = result.candidates[0].content.parts[0].text;
+                    
+                    let htmlContent = text
+                        .replace(/\*\*(.*?)\*\*/g, '<p><strong class="text-amber-400">$1</strong></p>')
+                        .replace(/-\s(.*?)(?=\n-|\n\n|$)/g, '<ul><li class="pl-4">$1</li></ul>')
+                        .replace(/\n/g, '<br>');
+
+                    responseDiv.innerHTML = htmlContent;
+                    wrapperDiv.classList.remove('hidden');
+                } else {
+                    responseDiv.innerHTML = '<p class="text-red-500">The AI returned an empty response. Please try again.</p>';
+                    wrapperDiv.classList.remove('hidden');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                responseDiv.innerHTML = `<p class="text-red-500">An error occurred. Please ensure your API key is valid. Details: ${error.message}</p>`;
+                wrapperDiv.classList.remove('hidden');
+            } finally {
+                loaderDiv.classList.add('hidden');
+            }
+        }
+
+        analyzeAutomationButton.addEventListener('click', () => {
+            const userDescription = automationInput.value;
+            if (!userDescription.trim()) {
+                automationAiResponseDiv.innerHTML = '<p class="text-red-500">Please describe a workload to analyze.</p>';
+                automationAiResponseWrapper.classList.remove('hidden');
+                return;
+            }
+            emailDraftSection.classList.add('hidden');
+            emailAiResponseWrapper.classList.add('hidden');
+
+            const prompt = `
+                As a "Human-Centric Systems Architect," analyze the following personal assistant's workload described by a user to solve for "Combinatorial Explosion."
+                User's description: "${userDescription}"
+
+                Your response must be a strategic action plan structured in markdown format with the following sections:
+                - **Diagnosis:** Briefly diagnose the core problem, identifying the "Combinatorial Explosion" and its impact on the human assistant.
+                - **Action Plan - The Codex Method:** Provide a 3-step action plan based on the "Gen X Codex" principles.
+                  1. **Identify Repetitive Tasks (The Architect's Audit):** List the specific tasks from the user's description that are repetitive and rule-based.
+                  2. **Develop Task-Specific Expert Systems (The Gen Z Toolkit):** Suggest simple, narrow AI or expert systems for each identified task (e.g., a scheduling bot, an FAQ auto-responder).
+                  3. **Create Human-Centric Prompts (The Oracle's Touch):** Explain how to write prompts for these systems and, most importantly, define the new, elevated role for the human assistant (e.g., "System Manager," "Strategic Partner").
+            `;
+            callGemini(prompt, automationAiResponseDiv, automationLoader, automationAiResponseWrapper).then(() => {
+                if(automationAiResponseDiv.innerText.length > 50) {
+                   emailDraftSection.classList.remove('hidden');
+                }
+            });
+        });
+
+        draftEmailButton.addEventListener('click', () => {
+            const solutionText = automationAiResponseDiv.innerText;
+            if (!solutionText.trim()) {
+                emailAiResponseDiv.innerHTML = '<p class="text-red-500">Please generate a solution first.</p>';
+                emailAiResponseWrapper.classList.remove('hidden');
+                return;
+            }
+
+            const prompt = `
+                Based on the following strategic action plan, please draft a concise and professional email to a Board Secretary.
+                The goal of the email is to formally request that this plan be added as a new business item to the agenda for the next board meeting.
+                The email should be from a proactive team member who has identified a bottleneck and architected a solution.
+                
+                Action Plan to be summarized:
+                ---
+                ${solutionText}
+                ---
+
+                Draft the email below.
+            `;
+            callGemini(prompt, emailAiResponseDiv, emailLoader, emailAiResponseWrapper);
+        });
+    </script>
+</body>
+</html>
